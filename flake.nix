@@ -25,6 +25,8 @@
                 cmake
                 halide
                 spdlog
+                argparse
+                openimageio
                 # Python environment.
                 python3
                 uv

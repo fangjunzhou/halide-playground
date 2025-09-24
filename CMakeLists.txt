@@ -22,6 +22,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Dependencies.
 find_package(spdlog REQUIRED)
+find_package(argparse REQUIRED)
+find_package(OpenImageIO REQUIRED)
 find_package(Halide REQUIRED)
 
 # Build main project.
