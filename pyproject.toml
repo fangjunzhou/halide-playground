@@ -1,0 +1,14 @@
+[project]
+name = "halide-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "halide>=21.0.0",
+    "jupyterlab>=4.4.7",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
